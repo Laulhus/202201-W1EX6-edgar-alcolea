@@ -1,0 +1,24 @@
+.navbar__container {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar__logo {
+  padding-right: auto;
+}
+.navbar__container__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.link-list__element,
+.link-list__element--drop {
+  border: 2px solid red;
+  display: inline;
+  padding: 0 10px;
+}
+.navbar__container__login {
+  display: flex;
+  justify-content: flex-end;
+}
