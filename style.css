@@ -1,0 +1,40 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar__logo {
+  padding: 10px;
+  height: 4vh;
+}
+.navbar__container__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.link-list__element,
+.link-list__element--drop {
+  display: inline;
+  padding: 0 10px;
+  font-weight: 600;
+}
+.navbar__container__login {
+  display: flex;
+  width: 15vw;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar__button {
+  border-radius: 25px;
+  background-color: #3bd2a2;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+}
+.navbar__login {
+  font-weight: 600;
+  margin-right: 15px;
+}

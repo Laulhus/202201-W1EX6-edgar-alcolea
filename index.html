@@ -6,20 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Header</title>
     <link href="assets/favicon.png" rel="icon" type="image/png" />
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="navbar">
-      <img src="assets/logo.png" alt="Header Logo" />
-      <ul class="list">
-        <li class="list__element">Features</li>
-        <li class="list__element">Pricing</li>
-        <li class="list__element">Themes</li>
-        <li class="list__element">Customers</li>
-        <li class="list__element list__drop">Resources</li>
-        <li class="list__element list__drop">Services</li>
-        <li class="list__element list__drop">Partner</li>
-        <p class="login"></p>
-        <button class="button">START FOR FREE</button>
+      <div class="navbar__container">
+        <img class ="navbar__logo" src="assets/logo.png" alt="Header Logo" />
+        <div class="navbar__container__links">
+      <ul class="link-list">
+        <li class="link-list__element">Features</li>
+        <li class="link-list__element">Pricing</li>
+        <li class="link-list__element">Themes</li>
+        <li class="link-list__element">Customers</li>
+        <li class="link-list__element--drop">Resources</li>
+        <li class="link-list__element--drop">Services</li>
+        <li class="link-list__element--drop">Partner</li>
+        </ul>
+      </div>
+      <div class="navbar__container__login">
+        <p class="navbar__login">Login</p>
+        <p class="navbar__button">START FOR FREE</p>
+        </div>
+        </div>
       </ul>
     </header>
   </body>
