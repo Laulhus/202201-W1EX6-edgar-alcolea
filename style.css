@@ -21,6 +21,11 @@ body {
   padding: 0 10px;
   font-weight: 600;
 }
+.link-list__element:hover,
+.link-list__element--drop:hover {
+  color: #3bd2a2;
+  cursor: pointer;
+}
 .navbar__container__login {
   display: flex;
   width: 15vw;
@@ -33,8 +38,27 @@ body {
   color: #fff;
   padding: 10px;
   font-size: 12px;
+  width: 9vw;
+  text-align: center;
+}
+.navbar__button:hover {
+  background-color: #fff;
+  color: #3bd2a2;
+  border: 2px solid #3bd2a2;
 }
 .navbar__login {
   font-weight: 600;
-  margin-right: 15px;
+  padding-right: 10px;
+}
+@media only screen and (max-width: 940px) {
+  body {
+    background-color: lightblue;
+  }
+  .link-list__element,
+  .link-list__element--drop {
+    display: inline;
+    padding: 0 10px;
+    font-weight: 600;
+    display: none;
+  }
 }
